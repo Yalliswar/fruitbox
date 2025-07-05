@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FruitBox - Freshness at Your Door</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>FruitBox</h1>
+    <p>Fresh mixed fruits delivered daily!</p>
+  </header>
+
+  <section class="hero">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Fruit Logo">
+    <h2>Choose Your Healthy Box</h2>
+  </section>
+
+  <section class="boxes">
+    <div class="box" onclick="selectBox('Mini Mix')">
+      <h3>Mini Mix</h3>
+      <p>₹149</p>
+      <p>Apple, Banana, Orange</p>
+    </div>
+    <div class="box" onclick="selectBox('Energy Box')">
+      <h3>Energy Box</h3>
+      <p>₹199</p>
+      <p>Mini Mix + Grapes & Papaya</p>
+    </div>
+    <div class="box" onclick="selectBox('Super Fuel')">
+      <h3>Super Fuel</h3>
+      <p>₹249</p>
+      <p>Energy Box + Dry Fruits</p>
+    </div>
+  </section>
+
+  <section class="monthly-section">
+    <h2>Monthly Package</h2>
+    <div class="box large-box" onclick="selectBox('Monthly Pack')">
+      <h3>Monthly Pack</h3>
+      <p>₹899</p>
+      <p>4x Weekly Deliveries of Mini Mix Box</p>
+    </div>
+  </section>
+
+  <form id="orderForm">
+    <h3>Place Your Order</h3>
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="text" id="address" placeholder="Delivery Address" required />
+    <input type="text" id="selectedBox" placeholder="Selected Box" readonly required />
+    <button type="submit">Submit Order</button>
+    <p id="successMsg" class="success"></p>
+  </form>
+
+  <footer>
+    <p>© 2025 FruitBox. Eat Fresh, Live Well.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
