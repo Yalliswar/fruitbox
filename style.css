@@ -1,99 +1,98 @@
 body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f8f9fa;
-    color: #333;
-  }
-  
-  header {
-    background-color: #4caf50;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  .hero {
-    text-align: center;
-    padding: 30px 20px;
-  }
-  
-  .hero img {
-    max-width: 150px;
-    border-radius: 50%;
-  }
-  
-  .boxes, .monthly-section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 30px;
-    flex-direction: row;
-  }
-  
-  .box {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    width: 250px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  .box:hover {
-    border-color: #4caf50;
-    transform: scale(1.03);
-  }
-  
-  .large-box {
-    width: 300px;
-    border: 2px solid #ff9800;
-  }
-  
-  form {
-    max-width: 400px;
-    margin: 30px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  }
-  
-  form input,
-  form button {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  form button {
-    background: #4caf50;
-    color: white;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 20px;
-    background: #eee;
-    margin-top: 40px;
-  }
-  
-  .success {
-    color: green;
-    font-weight: bold;
-    text-align: center;
-  }
-  
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.hero {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.hero img {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.boxes, .monthly-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  flex-direction: row;
+}
+
+.box {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.box:hover {
+  border-color: #4caf50;
+  transform: scale(1.03);
+}
+
+.large-box {
+  width: 300px;
+  border: 2px solid #ff9800;
+}
+
+form {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+  margin-top: 40px;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
